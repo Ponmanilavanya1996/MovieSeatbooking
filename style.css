@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.theater {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 50px);
+    gap: 10px;
+        }
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+        }
+.selected {
+    background-color: #f00;
+     color: #fff;
+        }
+.seating-form{
+    display: flex;
+    justify-content: center;
+
+    font-size: 18px;
+}

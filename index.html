@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Theater Seating</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Theater Seating</h1>
+    <form id="seating-form">
+    <label for="friends">Number of Friends:</label>
+    <input type="number" id="friends" min="1" value="1">
+    <br>
+    <br>
+    <label for="rows">Number of Rows:</label>
+    <input type="number" id="rows" min="1" value="5">
+    <br>
+    <br>
+    <label for="columns">Number of Columns:</label>
+    <input type="number" id="columns" min="1" value="8">
+    <br>
+    <br>
+    <button onclick="findSeats()">Find Seats</button>
+    </form>
+    <br>
+
+    <div class="theater" id="theater"></div>
+    <script src="index.js"></script>
+
+</body>
+</html>
